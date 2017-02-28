@@ -2,7 +2,7 @@
   "name": "fingers-angles",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "flexboxgrid": "^6.3.1",
     "gl-matrix": "^2.3.2",
@@ -19,6 +19,7 @@
   },
   "scripts": {
     "dev": "node_modules/webpack/bin/webpack.js --watch",
+    "distribute": "node_modules/webpack/bin/webpack.js lib/index.js --output-path=dist --output-filename=index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

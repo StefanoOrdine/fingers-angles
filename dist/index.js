@@ -45,8 +45,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(1);
-	__webpack_require__(41);
-	(function webpackMissingModule() { throw new Error("Cannot find module \"dist/index.js\""); }());
+	module.exports = __webpack_require__(41);
 
 
 /***/ },
