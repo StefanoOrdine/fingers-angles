@@ -8,7 +8,7 @@ import ProgressBar from 'progressbar.js';
 import { Controller } from 'leapjs';
 
 // This is going to be extracted into a separate plugin
-import initFingersAnglesLeapMotionPlugin from './lib/fingers-angles';
+import initFingersAnglesLeapMotionPlugin from '../lib';
 initFingersAnglesLeapMotionPlugin();
 
 const progressBars = [

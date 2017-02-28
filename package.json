@@ -2,7 +2,7 @@
   "name": "fingers-angles",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "flexboxgrid": "^6.3.1",
     "gl-matrix": "^2.3.2",
