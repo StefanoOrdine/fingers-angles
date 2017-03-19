@@ -5,10 +5,10 @@ import './index.css';
 import ProgressBar from 'progressbar.js';
 
 // Import LeapMotion stuffs
-import { Controller } from 'leapjs';
+import Leap from 'leapjs';
 
 // This is going to be extracted into a separate plugin
-import initFingersAnglesLeapMotionPlugin from '../lib';
+import initFingersAnglesLeapMotionPlugin from '../dist';
 initFingersAnglesLeapMotionPlugin();
 
 const progressBars = [
@@ -67,7 +67,7 @@ const controllerOptions = {
   frameEventName: 'deviceFrame',
   useAllPlugins: false
 };
-const controller = new Controller(controllerOptions)
+const controller = new Leap.Controller(controllerOptions)
   .use('fingersAngles')
   .on('connect', () => { setInterval(renderHandStatus, SAMPLING_RATE); })
   .connect();
