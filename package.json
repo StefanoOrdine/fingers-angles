@@ -4,16 +4,16 @@
   "description": "",
   "main": "dist/index.js",
   "dependencies": {
-    "flexboxgrid": "^6.3.1",
-    "gl-matrix": "^2.3.2",
-    "leapjs": "^0.6.4",
-    "progressbar.js": "^1.0.1"
+    "gl-matrix": "^2.3.2"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
     "babel-loader": "^6.2.10",
     "babel-preset-env": "^1.1.1",
     "css-loader": "^0.26.1",
+    "flexboxgrid": "^6.3.1",
+    "leapjs": "^0.6.4",
+    "progressbar.js": "^1.0.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.14.0"
   },

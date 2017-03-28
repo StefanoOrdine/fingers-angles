@@ -4,12 +4,11 @@ import './index.css';
 
 import ProgressBar from 'progressbar.js';
 
-// Import LeapMotion stuffs
 import Leap from 'leapjs';
 
-// This is going to be extracted into a separate plugin
+// Import the plugin
 import initFingersAnglesLeapMotionPlugin from '../dist';
-initFingersAnglesLeapMotionPlugin();
+initFingersAnglesLeapMotionPlugin(Leap);
 
 const progressBars = [
   [
